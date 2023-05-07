@@ -1,0 +1,113 @@
+2020-12-20 14:24:49,738 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 14:26:11,925 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 14:26:12,055 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 14:27:00,258 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 14:27:00,356 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:32:53,535 - __main__ - INFO - 本次无需采集信息 暂停1m
+2020-12-20 15:41:51,862 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:41:51,862 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:52,006 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:41:52,006 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:41:52,006 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:41:52,130 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:41:52,130 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:52,132 - __main__ - INFO - 暂停5秒
+2020-12-20 15:41:57,307 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:41:57,308 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:41:57,308 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:57,461 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:41:57,461 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:41:57,461 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:41:57,561 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:41:57,561 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:57,563 - __main__ - INFO - 暂停2秒
+2020-12-20 15:41:59,676 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:41:59,676 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:41:59,676 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:59,801 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:41:59,801 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:41:59,801 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:41:59,959 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:41:59,960 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:41:59,962 - __main__ - INFO - 暂停7秒
+2020-12-20 15:42:07,104 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:07,105 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:42:07,105 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:07,253 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:07,253 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:07,253 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:07,387 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:07,387 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:07,389 - __main__ - INFO - 暂停3秒
+2020-12-20 15:42:10,477 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:10,477 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:42:10,477 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:10,564 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:10,564 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:10,564 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:10,707 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:10,708 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:10,709 - __main__ - INFO - 暂停7秒
+2020-12-20 15:42:17,831 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:17,831 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:42:17,831 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:17,930 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:17,930 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:17,930 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:18,063 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:18,063 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:18,065 - __main__ - INFO - 暂停7秒
+2020-12-20 15:42:25,376 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:25,376 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:42:25,376 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:25,722 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:25,722 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:25,722 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:25,848 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:25,848 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:25,850 - __main__ - INFO - 暂停5秒
+2020-12-20 15:42:30,956 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:30,956 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:42:30,956 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:31,106 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:31,106 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:31,106 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:31,260 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:31,261 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:31,263 - __main__ - INFO - 暂停4秒
+2020-12-20 15:42:35,379 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:35,379 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:42:35,379 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:35,499 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:35,499 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:35,500 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:35,598 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:35,598 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:35,600 - __main__ - INFO - 暂停2秒
+2020-12-20 15:42:37,768 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:37,768 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:42:37,768 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:37,905 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:37,905 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:37,905 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:38,047 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:38,047 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:38,049 - __main__ - INFO - 暂停7秒
+2020-12-20 15:42:45,193 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:45,193 - __main__ - INFO - 当前关键词是：python
+2020-12-20 15:42:45,193 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:45,299 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:45,299 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:45,299 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:45,471 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:45,471 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:45,473 - __main__ - INFO - 暂停2秒
+2020-12-20 15:42:47,616 - __main__ - INFO - 本页信息条数：0
+2020-12-20 15:42:47,616 - __main__ - INFO - 当前关键词是：sanic
+2020-12-20 15:42:47,616 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:47,755 - __main__ - INFO - 验证cookies是否可用
+2020-12-20 15:42:47,755 - __main__ - INFO - cookies不可用，重新获取cookies
+2020-12-20 15:42:47,755 - __main__ - INFO - 获取微信snuid cookies
+2020-12-20 15:42:47,910 - __main__ - INFO - wx_cookies获取成功
+2020-12-20 15:42:47,910 - __main__ - INFO - 打开cookie文件获取cookies
+2020-12-20 15:42:47,912 - __main__ - INFO - 暂停8秒
