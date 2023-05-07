@@ -217,21 +217,14 @@ class RedisStreamKit(RedisKit):
         for _key, _mgs in streams:
             res[_key] = dict(_mgs)
 
-        # if streams:
-        #     _key, _ = streams[0]
-        #     res[_key.decode(code)] = dict()
-        #     if _:
-        #         stream_id, _d = _[0]
-        #         res["stream_id"] = stream_id.decode(code)
-        #         res["data"] = {i.decode(code): _d[i].decode(code) for i in _d}
         if res and is_decode:
             return StrKit.de2str(res)
         return res
 
-    def add_stream(self, key: str, fields: dict, **kwargs):
+    def add(self, key: str, fields: dict, **kwargs):
         self.client.xadd(name=key, fields=fields, **kwargs)
 
-    def read_stream(self, streams: dict, count=1, block=100) -> list:
+    def read(self, streams: dict, count=1, block=100) -> list:
         """
         读取流 返回list, 数据为bytes
         :param streams: {key: stream_id， key1: stream_id1}
@@ -240,7 +233,11 @@ class RedisStreamKit(RedisKit):
         """
         return self.client.xread(streams, count=count, block=block)
 
-    def read_stream2dict(self, streams, count=1, block=100, is_decode=False) -> dict:
+    def read2dict(
+            self, streams: dict,
+            count: int = 1,
+            block: int = 100,
+            is_decode: bool = False) -> dict:
         """
         读取流，返回dict, 数据已解码为 str
         :param streams: {key: stream_id, key2: xxx}
@@ -249,7 +246,7 @@ class RedisStreamKit(RedisKit):
         :param is_decode: 是否需要decode成str, 默认为False
         """
         # TODO 这里count不为1时，不能这样处理
-        _s = self.read_stream(streams, count=count, block=block)
+        _s = self.read(streams, count=count, block=block)
         return self.stream2dict(_s, is_decode)
 
     def del_key(self, key, *stream_ids):
@@ -257,5 +254,14 @@ class RedisStreamKit(RedisKit):
 
     def get_length(self, key):
         return self.client.xlen(key)
+
+    def create_group(self, ):
+        pass
+
+    def get_stream_info(self):
+        pass
+
+    def get_group_info(self): pass
+
 
 
