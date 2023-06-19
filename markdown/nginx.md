@@ -49,3 +49,29 @@ location = /img/test.jpg {  # 精准匹配
     return 200 "this is = /img/test.jpg"
 }
 ```
+
+# ssl
+nginx集成 ngx_http_ssl_module
+```shell
+# 找到nginx源码目录
+./configure --prefix=/usr/local/nginx --with-http_ssl_module
+
+make
+cd objs
+./nginx -V
+# 将原来的nginx备份， 将objs中的nginx拷贝过去
+mv /usr/local/nginx/sbin/nginx /usr/local/nginx/sbin/nginx.bak2
+cp nginx /usr/local/nginx/sbin/nginx
+cd /usr/local/nginx/sbin
+./nginx -V
+ps -ef|grep nginx
+# 重新启动nginx 
+
+# 将http80端口重定向到https
+server {
+  listen 80;
+  server_name ygstack.com;
+  rewrite .* https://$server_name$1 permanent;
+}
+
+```
