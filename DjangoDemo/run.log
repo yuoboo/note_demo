@@ -1,0 +1,365 @@
+[2024-06-02 19:04:50 +0800] [2341] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:04:50 +0800] [2341] [INFO] Listening at: http://127.0.0.1:5000 (2341)
+[2024-06-02 19:04:50 +0800] [2341] [INFO] Using worker: gevent
+[2024-06-02 19:04:50 +0800] [2343] [INFO] Booting worker with pid: 2343
+[2024-06-02 19:04:50 +0800] [2344] [INFO] Booting worker with pid: 2344
+[2024-06-02 19:04:50 +0800] [2345] [INFO] Booting worker with pid: 2345
+[2024-06-02 19:04:50 +0800] [2346] [INFO] Booting worker with pid: 2346
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:05:00,647 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:05:01,066 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:05:01,922 - poll.info - ERROR - django: test error
+2024-06-02 11:05:09,919 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:05:13,066 - poll.info - ERROR - django: test error
+2024-06-02 11:05:19,487 - poll.info - ERROR - django: test error
+[2024-06-02 19:09:32 +0800] [2341] [INFO] Handling signal: int
+[2024-06-02 19:09:33 +0800] [2341] [INFO] Shutting down: Master
+[2024-06-02 19:09:34 +0800] [2448] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:09:34 +0800] [2448] [INFO] Listening at: http://127.0.0.1:5000 (2448)
+[2024-06-02 19:09:34 +0800] [2448] [INFO] Using worker: gevent
+[2024-06-02 19:09:34 +0800] [2450] [INFO] Booting worker with pid: 2450
+[2024-06-02 19:09:34 +0800] [2451] [INFO] Booting worker with pid: 2451
+[2024-06-02 19:09:34 +0800] [2452] [INFO] Booting worker with pid: 2452
+[2024-06-02 19:09:34 +0800] [2453] [INFO] Booting worker with pid: 2453
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:09:38,541 - poll.info - ERROR - django: test error
+2024-06-02 11:09:38,541 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'level': 'INFO', 'handlers': ['console_err']}}
+2024-06-02 11:09:53,916 - poll.info - INFO - django: b'11027'
+2024-06-02 11:09:53,916 - poll.info - ERROR - django: test error
+2024-06-02 11:09:53,916 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'level': 'INFO', 'handlers': ['console_err']}}
+2024-06-02 11:09:54,799 - poll.info - INFO - django: b'11028'
+2024-06-02 11:09:54,799 - poll.info - ERROR - django: test error
+2024-06-02 11:09:54,799 - poll.info - ERROR - django: test error
+2024-06-02 11:10:11,516 - poll.info - INFO - django: b'11029'
+2024-06-02 11:10:11,522 - poll.info - ERROR - django: test error
+2024-06-02 11:10:11,522 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:10:12,966 - poll.info - ERROR - django: test error
+2024-06-02 11:10:12,966 - poll.info - ERROR - django: test error
+2024-06-02 11:10:21,885 - poll.info - ERROR - django: test error
+2024-06-02 11:10:21,885 - poll.info - ERROR - django: test error
+2024-06-02 11:10:23,091 - poll.info - ERROR - django: test error
+2024-06-02 11:10:23,091 - poll.info - ERROR - django: test error
+2024-06-02 11:10:39,766 - poll.info - ERROR - django: test error
+2024-06-02 11:10:39,766 - poll.info - ERROR - django: test error
+2024-06-02 11:10:40,697 - poll.info - INFO - django: b'11034'
+2024-06-02 11:10:40,715 - poll.info - ERROR - django: test error
+2024-06-02 11:10:40,715 - poll.info - ERROR - django: test error
+2024-06-02 11:10:48,423 - poll.info - INFO - django: b'11035'
+2024-06-02 11:10:48,439 - poll.info - ERROR - django: test error
+2024-06-02 11:10:48,439 - poll.info - ERROR - django: test error
+2024-06-02 11:10:53,916 - poll.info - ERROR - django: test error
+2024-06-02 11:10:53,916 - poll.info - ERROR - django: test error
+2024-06-02 11:10:57,666 - poll.info - INFO - django: b'11037'
+2024-06-02 11:10:57,671 - poll.info - ERROR - django: test error
+2024-06-02 11:10:57,671 - poll.info - ERROR - django: test error
+2024-06-02 11:11:09,624 - poll.info - INFO - django: b'11038'
+2024-06-02 11:11:09,640 - poll.info - ERROR - django: test error
+2024-06-02 11:11:09,640 - poll.info - ERROR - django: test error
+2024-06-02 11:11:19,835 - poll.info - ERROR - django: test error
+2024-06-02 11:11:19,835 - poll.info - ERROR - django: test error
+2024-06-02 11:11:26,359 - poll.info - INFO - django: b'11040'
+2024-06-02 11:11:26,376 - poll.info - ERROR - django: test error
+2024-06-02 11:11:26,376 - poll.info - ERROR - django: test error
+2024-06-02 11:11:31,243 - poll.info - INFO - django: b'11041'
+2024-06-02 11:11:31,252 - poll.info - ERROR - django: test error
+2024-06-02 11:11:31,252 - poll.info - ERROR - django: test error
+2024-06-02 11:11:34,960 - poll.info - ERROR - django: test error
+2024-06-02 11:11:34,960 - poll.info - ERROR - django: test error
+2024-06-02 11:11:39,049 - poll.info - INFO - django: b'11043'
+2024-06-02 11:11:39,064 - poll.info - ERROR - django: test error
+2024-06-02 11:11:39,064 - poll.info - ERROR - django: test error
+[2024-06-02 19:12:35 +0800] [2448] [INFO] Handling signal: winch
+2024-06-02 11:12:43,373 - poll.info - ERROR - django: test error
+2024-06-02 11:12:43,373 - poll.info - ERROR - django: test error
+2024-06-02 11:12:47,282 - poll.info - ERROR - django: test error
+2024-06-02 11:12:47,282 - poll.info - ERROR - django: test error
+2024-06-02 11:12:49,464 - poll.info - INFO - django: b'11046'
+2024-06-02 11:12:49,498 - poll.info - ERROR - django: test error
+2024-06-02 11:12:49,498 - poll.info - ERROR - django: test error
+2024-06-02 11:12:51,800 - poll.info - INFO - django: b'11047'
+2024-06-02 11:12:51,818 - poll.info - ERROR - django: test error
+2024-06-02 11:12:51,818 - poll.info - ERROR - django: test error
+2024-06-02 11:12:54,400 - poll.info - ERROR - django: test error
+2024-06-02 11:12:54,400 - poll.info - ERROR - django: test error
+2024-06-02 11:12:56,850 - poll.info - INFO - django: b'11049'
+2024-06-02 11:12:56,859 - poll.info - ERROR - django: test error
+2024-06-02 11:12:56,859 - poll.info - ERROR - django: test error
+[2024-06-02 19:14:35 +0800] [2448] [INFO] Handling signal: int
+[2024-06-02 19:14:36 +0800] [2448] [INFO] Shutting down: Master
+[2024-06-02 19:14:41 +0800] [2599] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:14:41 +0800] [2599] [INFO] Listening at: http://127.0.0.1:5000 (2599)
+[2024-06-02 19:14:41 +0800] [2599] [INFO] Using worker: gevent
+[2024-06-02 19:14:41 +0800] [2601] [INFO] Booting worker with pid: 2601
+[2024-06-02 19:14:41 +0800] [2602] [INFO] Booting worker with pid: 2602
+[2024-06-02 19:14:41 +0800] [2603] [INFO] Booting worker with pid: 2603
+[2024-06-02 19:14:42 +0800] [2604] [INFO] Booting worker with pid: 2604
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:14:45,583 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:14:52,900 - poll.info - ERROR - django: test error
+2024-06-02 11:14:55,451 - poll.info - ERROR - django: test error
+2024-06-02 11:14:58,212 - poll.info - ERROR - django: test error
+2024-06-02 11:15:01,115 - poll.info - ERROR - django: test error
+2024-06-02 11:15:05,151 - poll.info - ERROR - django: test error
+2024-06-02 11:15:07,715 - poll.info - ERROR - django: test error
+2024-06-02 11:15:10,301 - poll.info - ERROR - django: test error
+2024-06-02 11:15:12,752 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:15:15,451 - poll.info - ERROR - django: test error
+2024-06-02 11:15:20,501 - poll.info - ERROR - django: test error
+2024-06-02 11:15:22,611 - poll.info - ERROR - django: test error
+2024-06-02 11:15:24,871 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console_err']}}
+2024-06-02 11:15:27,125 - poll.info - ERROR - django: test error
+[2024-06-02 19:16:19 +0800] [2599] [INFO] Handling signal: int
+[2024-06-02 19:16:19 +0800] [2599] [INFO] Shutting down: Master
+[2024-06-02 19:16:20 +0800] [2700] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:16:20 +0800] [2700] [INFO] Listening at: http://127.0.0.1:5000 (2700)
+[2024-06-02 19:16:20 +0800] [2700] [INFO] Using worker: gevent
+[2024-06-02 19:16:20 +0800] [2702] [INFO] Booting worker with pid: 2702
+[2024-06-02 19:16:20 +0800] [2703] [INFO] Booting worker with pid: 2703
+[2024-06-02 19:16:20 +0800] [2704] [INFO] Booting worker with pid: 2704
+[2024-06-02 19:16:20 +0800] [2705] [INFO] Booting worker with pid: 2705
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:16:24,383 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:16:30,880 - poll.info - ERROR - django: test error
+2024-06-02 11:16:34,767 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:16:38,851 - poll.info - ERROR - django: test error
+2024-06-02 11:16:39,568 - poll.info - ERROR - django: test error
+2024-06-02 11:16:43,401 - poll.info - ERROR - django: test error
+2024-06-02 11:16:44,331 - poll.info - ERROR - django: test error
+2024-06-02 11:16:45,005 - poll.info - ERROR - django: test error
+2024-06-02 11:17:25,401 - poll.info - ERROR - django: test error
+[2024-06-02 19:17:36 +0800] [2700] [INFO] Handling signal: winch
+[2024-06-02 19:17:36 +0800] [2700] [INFO] Handling signal: winch
+[2024-06-02 19:17:36 +0800] [2700] [INFO] Handling signal: winch
+[2024-06-02 19:17:37 +0800] [2700] [INFO] Handling signal: winch
+[2024-06-02 19:18:21 +0800] [2700] [INFO] Handling signal: int
+[2024-06-02 11:18:21 +0000] [2705] [INFO] Worker exiting (pid: 2705)
+Traceback (most recent call last):
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/monkey.py", line 849, in _shutdown
+    sleep()
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/hub.py", line 159, in sleep
+    waiter.get()
+  File "src/gevent/_waiter.py", line 143, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+  File "src/gevent/greenlet.py", line 908, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gunicorn/workers/base.py", line 198, in handle_quit
+    sys.exit(0)
+SystemExit: 0
+Traceback (most recent call last):
+2024-06-02T11:18:21Z <greenlet.greenlet object at 0x7ff038140600 (otid=0x7ff038128930) current active started main> failed with SystemExit
+
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/monkey.py", line 849, in _shutdown
+    sleep()
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/hub.py", line 159, in sleep
+    waiter.get()
+  File "src/gevent/_waiter.py", line 143, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+  File "src/gevent/greenlet.py", line 908, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gunicorn/workers/base.py", line 198, in handle_quit
+    sys.exit(0)
+SystemExit: 0
+2024-06-02T11:18:21Z <greenlet.greenlet object at 0x7ff0581c82c0 (otid=0x7ff0581a2ed0) current active started main> failed with SystemExit
+
+[2024-06-02 19:18:21 +0800] [2700] [INFO] Shutting down: Master
+[2024-06-02 19:18:23 +0800] [2855] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:18:23 +0800] [2855] [INFO] Listening at: http://127.0.0.1:5000 (2855)
+[2024-06-02 19:18:23 +0800] [2855] [INFO] Using worker: gevent
+[2024-06-02 19:18:23 +0800] [2858] [INFO] Booting worker with pid: 2858
+[2024-06-02 19:18:23 +0800] [2859] [INFO] Booting worker with pid: 2859
+[2024-06-02 19:18:23 +0800] [2861] [INFO] Booting worker with pid: 2861
+[2024-06-02 19:18:23 +0800] [2862] [INFO] Booting worker with pid: 2862
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:18:31,024 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': True}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:18:41,302 - poll.info - ERROR - django: test error
+2024-06-02 11:18:44,521 - poll.info - ERROR - django: test error
+[2024-06-02 19:19:13 +0800] [2855] [INFO] Handling signal: int
+[2024-06-02 11:19:13 +0000] [2858] [INFO] Worker exiting (pid: 2858)
+[2024-06-02 11:19:13 +0000] [2861] [INFO] Worker exiting (pid: 2861)
+[2024-06-02 19:19:13 +0800] [2855] [INFO] Shutting down: Master
+[2024-06-02 19:19:14 +0800] [2955] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:19:14 +0800] [2955] [INFO] Listening at: http://127.0.0.1:5000 (2955)
+[2024-06-02 19:19:14 +0800] [2955] [INFO] Using worker: gevent
+[2024-06-02 19:19:14 +0800] [2957] [INFO] Booting worker with pid: 2957
+[2024-06-02 19:19:14 +0800] [2959] [INFO] Booting worker with pid: 2959
+[2024-06-02 19:19:14 +0800] [2960] [INFO] Booting worker with pid: 2960
+[2024-06-02 19:19:14 +0800] [2961] [INFO] Booting worker with pid: 2961
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:19:20,402 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:19:28,102 - poll.info - ERROR - django: test error
+2024-06-02 11:19:28,671 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:19:29,528 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'handlers': ['console']}}
+2024-06-02 11:19:30,303 - poll.info - ERROR - django: test error
+2024-06-02 11:19:30,831 - poll.info - ERROR - django: test error
+2024-06-02 11:19:31,501 - poll.info - ERROR - django: test error
+2024-06-02 11:19:32,202 - poll.info - ERROR - django: test error
+2024-06-02 11:19:35,802 - poll.info - ERROR - django: test error
+2024-06-02 11:19:36,702 - poll.info - ERROR - django: test error
+2024-06-02 11:19:37,209 - poll.info - ERROR - django: test error
+2024-06-02 11:19:37,852 - poll.info - ERROR - django: test error
+[2024-06-02 19:20:17 +0800] [2955] [INFO] Handling signal: int
+[2024-06-02 19:20:17 +0800] [2955] [INFO] Shutting down: Master
+[2024-06-02 19:20:18 +0800] [3089] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:20:18 +0800] [3089] [INFO] Listening at: http://127.0.0.1:5000 (3089)
+[2024-06-02 19:20:18 +0800] [3089] [INFO] Using worker: gevent
+[2024-06-02 19:20:18 +0800] [3091] [INFO] Booting worker with pid: 3091
+[2024-06-02 19:20:18 +0800] [3092] [INFO] Booting worker with pid: 3092
+[2024-06-02 19:20:18 +0800] [3093] [INFO] Booting worker with pid: 3093
+[2024-06-02 19:20:18 +0800] [3094] [INFO] Booting worker with pid: 3094
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': False}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+2024-06-02 11:20:24,525 - poll.info - INFO - django: b'11088'
+2024-06-02 11:20:24,526 - poll.info - ERROR - django: test error
+[2024-06-02 19:20:41 +0800] [3089] [INFO] Handling signal: int
+[2024-06-02 11:20:41 +0000] [3091] [INFO] Worker exiting (pid: 3091)
+[2024-06-02 11:20:41 +0000] [3092] [INFO] Worker exiting (pid: 3092)
+[2024-06-02 11:20:41 +0000] [3094] [INFO] Worker exiting (pid: 3094)
+[2024-06-02 19:20:41 +0800] [3089] [INFO] Shutting down: Master
+[2024-06-02 19:20:43 +0800] [3162] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:20:43 +0800] [3162] [INFO] Listening at: http://127.0.0.1:5000 (3162)
+[2024-06-02 19:20:43 +0800] [3162] [INFO] Using worker: gevent
+[2024-06-02 19:20:43 +0800] [3164] [INFO] Booting worker with pid: 3164
+[2024-06-02 19:20:43 +0800] [3165] [INFO] Booting worker with pid: 3165
+[2024-06-02 19:20:43 +0800] [3166] [INFO] Booting worker with pid: 3166
+[2024-06-02 19:20:43 +0800] [3167] [INFO] Booting worker with pid: 3167
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+2024-06-02 11:20:47,552 - poll.info - INFO - django: b'11089'
+2024-06-02 11:20:47,552 - poll.info - ERROR - django: test error
+2024-06-02 11:20:55,624 - poll.info - INFO - django: b'11090'
+2024-06-02 11:20:55,642 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+2024-06-02 11:20:56,602 - poll.info - INFO - django: b'11091'
+2024-06-02 11:20:56,602 - poll.info - ERROR - django: test error
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['console'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+2024-06-02 11:20:57,357 - poll.info - INFO - django: b'11092'
+2024-06-02 11:20:57,357 - poll.info - ERROR - django: test error
+2024-06-02 11:20:57,702 - poll.info - INFO - django: b'11093'
+2024-06-02 11:20:57,717 - poll.info - ERROR - django: test error
+2024-06-02 11:20:58,304 - poll.info - INFO - django: b'11094'
+2024-06-02 11:20:58,319 - poll.info - ERROR - django: test error
+2024-06-02 11:20:59,016 - poll.info - INFO - django: b'11095'
+2024-06-02 11:20:59,033 - poll.info - ERROR - django: test error
+2024-06-02 11:20:59,759 - poll.info - INFO - django: b'11096'
+2024-06-02 11:20:59,759 - poll.info - ERROR - django: test error
+2024-06-02 11:21:00,302 - poll.info - INFO - django: b'11097'
+2024-06-02 11:21:00,307 - poll.info - ERROR - django: test error
+[2024-06-02 19:23:36 +0800] [3162] [INFO] Handling signal: int
+[2024-06-02 11:23:37 +0000] [3166] [INFO] Worker exiting (pid: 3166)
+[2024-06-02 19:23:37 +0800] [3162] [INFO] Shutting down: Master
+[2024-06-02 19:23:38 +0800] [3262] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:23:38 +0800] [3262] [INFO] Listening at: http://127.0.0.1:5000 (3262)
+[2024-06-02 19:23:38 +0800] [3262] [INFO] Using worker: gevent
+[2024-06-02 19:23:38 +0800] [3264] [INFO] Booting worker with pid: 3264
+[2024-06-02 19:23:38 +0800] [3265] [INFO] Booting worker with pid: 3265
+[2024-06-02 19:23:38 +0800] [3266] [INFO] Booting worker with pid: 3266
+[2024-06-02 19:23:38 +0800] [3267] [INFO] Booting worker with pid: 3267
+[2024-06-02 19:25:29 +0800] [3262] [INFO] Handling signal: int
+[2024-06-02 11:25:29 +0000] [3266] [INFO] Worker exiting (pid: 3266)
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['file'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['file'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+{'version': 1, 'formatters': {'simple': {'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'INFO', 'formatter': 'simple', 'stream': 'ext://sys.stdout'}, 'console_err': {'class': 'logging.StreamHandler', 'level': 'ERROR', 'formatter': 'simple', 'stream': 'ext://sys.stderr'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'INFO', 'formatter': 'simple', 'filename': 'logs/run.log', 'maxBytes': 10240, 'backupCount': 5, 'delay': True}, 'file_time': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'ERROR', 'formatter': 'simple', 'filename': 'logs/error.log', 'when': 'M', 'backupCount': 5, 'utc': True, 'delay': True}}, 'loggers': {'poll.info': {'handlers': ['file'], 'propagate': True}, 'poll': {'handlers': ['file_time'], 'propagate': False}}, 'root': {'level': 'INFO', 'handlers': ['console']}}
+[2024-06-02 19:25:30 +0800] [3262] [INFO] Shutting down: Master
+[2024-06-02 19:25:31 +0800] [3339] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:25:31 +0800] [3339] [INFO] Listening at: http://127.0.0.1:5000 (3339)
+[2024-06-02 19:25:31 +0800] [3339] [INFO] Using worker: gevent
+[2024-06-02 19:25:31 +0800] [3341] [INFO] Booting worker with pid: 3341
+[2024-06-02 19:25:31 +0800] [3342] [INFO] Booting worker with pid: 3342
+[2024-06-02 19:25:31 +0800] [3344] [INFO] Booting worker with pid: 3344
+[2024-06-02 19:25:31 +0800] [3345] [INFO] Booting worker with pid: 3345
+[2024-06-02 19:25:40 +0800] [3339] [INFO] Handling signal: winch
+[2024-06-02 19:25:40 +0800] [3339] [INFO] Handling signal: winch
+[2024-06-02 19:25:40 +0800] [3339] [INFO] Handling signal: winch
+[2024-06-02 19:25:40 +0800] [3339] [INFO] Handling signal: winch
+[2024-06-02 19:25:40 +0800] [3339] [INFO] Handling signal: winch
+[2024-06-02 19:26:22 +0800] [3339] [INFO] Handling signal: int
+[2024-06-02 11:26:22 +0000] [3344] [INFO] Worker exiting (pid: 3344)
+[2024-06-02 11:26:22 +0000] [3342] [INFO] Worker exiting (pid: 3342)
+[2024-06-02 11:26:22 +0000] [3341] [INFO] Worker exiting (pid: 3341)
+[2024-06-02 11:26:22 +0000] [3345] [INFO] Worker exiting (pid: 3345)
+Traceback (most recent call last):
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/monkey.py", line 849, in _shutdown
+    sleep()
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gevent/hub.py", line 159, in sleep
+    waiter.get()
+  File "src/gevent/_waiter.py", line 143, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src/gevent/_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+  File "src/gevent/greenlet.py", line 908, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/bing/opt/anaconda3/envs/web_hw/lib/python3.9/site-packages/gunicorn/workers/base.py", line 198, in handle_quit
+    sys.exit(0)
+SystemExit: 0
+2024-06-02T11:26:22Z <greenlet.greenlet object at 0x7f7b30307780 (otid=0x7f7b302e2ed0) current active started main> failed with SystemExit
+
+[2024-06-02 19:26:22 +0800] [3339] [INFO] Shutting down: Master
+[2024-06-02 19:26:27 +0800] [3596] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:26:27 +0800] [3596] [INFO] Listening at: http://127.0.0.1:5000 (3596)
+[2024-06-02 19:26:27 +0800] [3596] [INFO] Using worker: gevent
+[2024-06-02 19:26:27 +0800] [3598] [INFO] Booting worker with pid: 3598
+[2024-06-02 19:26:28 +0800] [3599] [INFO] Booting worker with pid: 3599
+[2024-06-02 19:26:28 +0800] [3600] [INFO] Booting worker with pid: 3600
+[2024-06-02 19:26:28 +0800] [3601] [INFO] Booting worker with pid: 3601
+[2024-06-02 19:27:05 +0800] [3596] [INFO] Handling signal: winch
+[2024-06-02 19:27:05 +0800] [3596] [INFO] Handling signal: winch
+[2024-06-02 19:27:05 +0800] [3596] [INFO] Handling signal: winch
+[2024-06-02 19:27:14 +0800] [3596] [INFO] Handling signal: int
+[2024-06-02 11:27:14 +0000] [3598] [INFO] Worker exiting (pid: 3598)
+[2024-06-02 11:27:14 +0000] [3601] [INFO] Worker exiting (pid: 3601)
+[2024-06-02 11:27:14 +0000] [3600] [INFO] Worker exiting (pid: 3600)
+[2024-06-02 11:27:14 +0000] [3599] [INFO] Worker exiting (pid: 3599)
+[2024-06-02 19:27:14 +0800] [3596] [INFO] Shutting down: Master
+[2024-06-02 19:27:16 +0800] [3666] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:27:16 +0800] [3666] [INFO] Listening at: http://127.0.0.1:5000 (3666)
+[2024-06-02 19:27:16 +0800] [3666] [INFO] Using worker: gevent
+[2024-06-02 19:27:16 +0800] [3668] [INFO] Booting worker with pid: 3668
+[2024-06-02 19:27:16 +0800] [3669] [INFO] Booting worker with pid: 3669
+[2024-06-02 19:27:16 +0800] [3670] [INFO] Booting worker with pid: 3670
+[2024-06-02 19:27:16 +0800] [3671] [INFO] Booting worker with pid: 3671
+[2024-06-02 19:27:32 +0800] [3666] [INFO] Handling signal: int
+[2024-06-02 11:27:32 +0000] [3670] [INFO] Worker exiting (pid: 3670)
+[2024-06-02 11:27:32 +0000] [3671] [INFO] Worker exiting (pid: 3671)
+[2024-06-02 11:27:32 +0000] [3669] [INFO] Worker exiting (pid: 3669)
+[2024-06-02 11:27:32 +0000] [3668] [INFO] Worker exiting (pid: 3668)
+[2024-06-02 19:27:32 +0800] [3666] [INFO] Shutting down: Master
+[2024-06-02 19:28:39 +0800] [3918] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:28:39 +0800] [3918] [INFO] Listening at: http://127.0.0.1:5000 (3918)
+[2024-06-02 19:28:39 +0800] [3918] [INFO] Using worker: gevent
+[2024-06-02 19:28:39 +0800] [3934] [INFO] Booting worker with pid: 3934
+[2024-06-02 19:28:39 +0800] [3935] [INFO] Booting worker with pid: 3935
+[2024-06-02 19:28:39 +0800] [3936] [INFO] Booting worker with pid: 3936
+[2024-06-02 19:28:39 +0800] [3937] [INFO] Booting worker with pid: 3937
+[2024-06-02 19:29:05 +0800] [3978] [INFO] Starting gunicorn 22.0.0
+[2024-06-02 19:29:05 +0800] [3978] [INFO] Listening at: http://127.0.0.1:5000 (3978)
+[2024-06-02 19:29:05 +0800] [3978] [INFO] Using worker: gevent
+[2024-06-02 19:29:05 +0800] [3980] [INFO] Booting worker with pid: 3980
+[2024-06-02 19:29:05 +0800] [3981] [INFO] Booting worker with pid: 3981
+[2024-06-02 19:29:05 +0800] [3982] [INFO] Booting worker with pid: 3982
+[2024-06-02 19:29:05 +0800] [3983] [INFO] Booting worker with pid: 3983
+[2024-06-02 19:29:13 +0800] [3978] [INFO] Handling signal: int
+[2024-06-02 11:29:14 +0000] [3981] [INFO] Worker exiting (pid: 3981)
+[2024-06-02 11:29:14 +0000] [3983] [INFO] Worker exiting (pid: 3983)
+[2024-06-02 11:29:14 +0000] [3980] [INFO] Worker exiting (pid: 3980)
+[2024-06-02 11:29:14 +0000] [3982] [INFO] Worker exiting (pid: 3982)
+[2024-06-02 19:29:14 +0800] [3978] [INFO] Shutting down: Master

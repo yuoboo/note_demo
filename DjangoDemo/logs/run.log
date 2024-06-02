@@ -1,0 +1,18 @@
+2024-06-02 11:23:41,632 - poll.info - INFO - django: b'11098'
+2024-06-02 11:23:41,633 - poll.info - ERROR - django: test error
+2024-06-02 11:23:42,160 - poll.info - INFO - django: b'11099'
+2024-06-02 11:23:42,177 - poll.info - ERROR - django: test error
+2024-06-02 11:23:43,079 - poll.info - INFO - django: b'11100'
+2024-06-02 11:23:43,079 - poll.info - ERROR - django: test error
+2024-06-02 11:23:43,502 - poll.info - INFO - django: b'11101'
+2024-06-02 11:23:43,521 - poll.info - ERROR - django: test error
+2024-06-02 11:23:44,303 - poll.info - INFO - django: b'11102'
+2024-06-02 11:23:44,308 - poll.info - ERROR - django: test error
+2024-06-02 11:23:44,870 - poll.info - INFO - django: b'11103'
+2024-06-02 11:23:44,886 - poll.info - ERROR - django: test error
+2024-06-02 11:24:54,053 - poll.info - INFO - django: b'11104'
+2024-06-02 11:24:54,053 - poll.info - ERROR - django: test error
+2024-06-02 11:24:54,422 - poll.info - INFO - django: b'11105'
+2024-06-02 11:24:54,439 - poll.info - ERROR - django: test error
+2024-06-02 11:24:54,952 - poll.info - INFO - django: b'11106'
+2024-06-02 11:24:54,967 - poll.info - ERROR - django: test error
