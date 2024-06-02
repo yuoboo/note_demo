@@ -16,6 +16,6 @@ class DemoView(APIView):
         redis_conn.incr('django', 1)
         logger.info(f"django: {redis_conn.get('django')}")
         logger.error("django: test error")
-        return Response("hello world")
+        return Response({"hello": "hello world"})
 
 
