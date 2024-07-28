@@ -1,0 +1,24 @@
+site_name: ${项目名称}
+site_description: ${项目描述}
+site_author: ${项目维护人}
+site_dir: src/apis/docs/_site/
+use_directory_urls: false
+
+theme:
+  name: "material"
+  logo:
+    icon: "apps"
+  language: "zh"
+  palette:
+    primary: "teal"
+    accent: "deep orange"
+extra:
+  search:
+    language: "en, jp"
+    tokenizer: '[\s\-\.\_]+'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

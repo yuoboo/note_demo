@@ -1,0 +1,1 @@
+delete from `ehr-recruitment`.t_hr_emp_rel where c_id='47810a86ad284428824292f8565facd0';

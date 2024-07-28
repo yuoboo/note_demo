@@ -1,0 +1,6 @@
+2024-06-23 17:13:51,406 - /Users/bing/code/example_py3/DjangoDemo/polls/views.py - ERROR - view: test error
+2024-06-23 17:13:51,407 - root - ERROR - ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "/Users/bing/code/example_py3/DjangoDemo/polls/views.py", line 21, in get
+    x = 1 / 0
+ZeroDivisionError: division by zero

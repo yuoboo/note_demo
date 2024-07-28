@@ -1,4 +1,44 @@
 # 快速排序
+from typing import List
+
+
+def select_sort(nums: List[int]):
+    """
+    选择排序
+    """
+    n = len(nums)
+    # 只需要排前n-1个元素 最后剩余的一个元素肯定是最大的元素 不需要排序
+    for i in range(n-1):
+        k = i
+        for j in range(i+1, n):
+            if nums[j] < nums[i]:
+                k = j
+        nums[i], nums[k] = nums[k], nums[i]
+
+
+def _bubble_sort(nums: List[int]):
+    """冒泡排序"""
+    n = len(nums)
+    for i in range(n-1, 0, -1):
+        flag = False
+        for j in range(i):
+            if nums[j] > nums[j+1]:
+                nums[j], nums[j+1] = nums[j+1], nums[j]
+                flag = True
+        if not flag:
+            break
+
+
+def insertion_sort(nums: List[int]):
+    """插入排序"""
+    n = len(nums)
+    for i in range(1, n):
+        base = nums[i]
+        j = i - 1
+        while j >= 0 and base < nums[j]:
+            nums[j+1] = nums[j]
+            j -= 1
+        nums[j+1] = base
 
 
 def bubble_sort(a: list):

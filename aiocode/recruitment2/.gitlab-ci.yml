@@ -1,0 +1,42 @@
+stages:
+  - build
+  - auto_cd
+
+build:
+  stage: build
+  script:
+    - dm_ci -f Dockerfile -n ${CI_PROJECT_NAME}
+  tags:
+    - python3-ci-runner
+  only:
+    - tags
+
+# api 服务
+api_auto_cd:
+  stage: auto_cd
+  variables:
+    JENKINS_URL: "http://jenkins.dianmi365.com"
+    JENKINS_JOB_VIEW_URL: "/view/%E6%8B%9B%E8%81%98%E7%AE%A1%E7%90%86/job/%E6%8B%9B%E8%81%98%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%B3%BB%E7%BB%9FV2-eebo.ehr.recruitment2/job/D_eebo.ehr.recruitment2"
+  script:
+    - echo "Hi CD, AUTO DEPLOY!"
+    - http_code=`curl -o /dev/null -s -w %{http_code} -I -u cd:11f847d72f04e593deb22ac5a67e39a676 -X POST --url "${JENKINS_URL}/${JENKINS_JOB_VIEW_URL}/buildWithParameters?token=${CI_PROJECT_NAME}&RELEASE_VERSION_TAG=${CI_COMMIT_TAG}"`; if [ "u${http_code}" != "u201" ]; then exit 1; fi
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^dev.*$/'
+      when: on_success
+  tags:
+    - python3-ci-runner
+
+# celery 服务
+celery_auto_cd:
+  stage: auto_cd
+  variables:
+    JENKINS_URL: "http://jenkins.dianmi365.com"
+    JENKINS_JOB_VIEW_URL: "/view/%E6%8B%9B%E8%81%98%E7%AE%A1%E7%90%86/job/%E6%8B%9B%E8%81%98%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%B3%BB%E7%BB%9FV2-eebo.ehr.recruitment2/job/D_eebo.ehr.recruitment2.celery"
+  script:
+    - echo "Hi CD, AUTO DEPLOY!"
+    - http_code=`curl -o /dev/null -s -w %{http_code} -I -u cd:11f847d72f04e593deb22ac5a67e39a676 -X POST --url "${JENKINS_URL}/${JENKINS_JOB_VIEW_URL}/buildWithParameters?token=${CI_PROJECT_NAME}&RELEASE_VERSION_TAG=${CI_COMMIT_TAG}"`; if [ "u${http_code}" != "u201" ]; then exit 1; fi
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^dev.*$/'
+      when: on_success
+  tags:
+    - python3-ci-runner

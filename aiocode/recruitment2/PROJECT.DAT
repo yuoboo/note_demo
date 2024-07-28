@@ -1,0 +1,2 @@
+eebo.ehr.recruitment2,Dockerfile,eebo.ehr.recruitment2.CD_PROJECT_ENV.yml
+eebo.ehr.recruitment2.celery,Dockerfile,eebo.ehr.recruitment2.celery.CD_PROJECT_ENV.yml

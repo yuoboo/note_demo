@@ -1,0 +1,7 @@
+2024-06-23 16:39:36,803 - /Users/bing/code/example_py3/DjangoDemo/polls/views.py - ERROR - view: test error
+2024-06-23 16:40:15,213 - /Users/bing/code/example_py3/DjangoDemo/polls/views.py - ERROR - view: test error
+2024-06-23 16:40:15,214 - /Users/bing/code/example_py3/DjangoDemo/polls/views.py - ERROR - exception: test error
+Traceback (most recent call last):
+  File "/Users/bing/code/example_py3/DjangoDemo/polls/views.py", line 21, in get
+    raise ValueError(11111)
+ValueError: 11111

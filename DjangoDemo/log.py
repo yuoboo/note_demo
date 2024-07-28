@@ -1,3 +1,4 @@
+import uuid
 from logging import handlers
 import logging.config
 import yaml
@@ -7,6 +8,15 @@ with open('logging.conf.yml', 'r', encoding="utf8") as f_conf:
     dict_conf = yaml.safe_load(f_conf.read())
     print(dict_conf)
 logging.config.dictConfig(dict_conf)
+
+
+class CustomAdapter(logging.LoggerAdapter):
+    """
+    This example adapter expects the passed in dict-like object to have a
+    'connid' key, whose value in brackets is prepended to the log message.
+    """
+    def process(self, msg, kwargs):
+        return '[%s] %s' % (self.extra['task_id'], msg), kwargs
 
 
 # class Logger(object):
@@ -44,9 +54,13 @@ logging.config.dictConfig(dict_conf)
 #         self.logger.addHandler(th)
 
 
-logger = logging.getLogger('poll.info')
-# logger.debug('debug message')
-# logger.info('info message')
-# logger.warning('warn message')
-# logger.error('error message')
-# logger.critical('critical message')
+if __name__ == '__main__':
+    logger = logging.getLogger('poll.info.test')
+    adapter = CustomAdapter(logger, {'task_id': uuid.uuid4().hex})
+
+
+    # logger.debug('debug message')
+    adapter.info('adapter info message')
+    # logger.warning('warn message')
+    adapter.error('adapter error message')
+    # logger.critical('critical message')

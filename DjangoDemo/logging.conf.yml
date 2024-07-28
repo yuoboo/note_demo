@@ -31,12 +31,13 @@ handlers:
     utc: True
     delay: True
 loggers:
-  poll.info:
-    handlers: [file]
-    propagate: True
-  poll:
-    handlers: [file_time]
+#  poll.info:
+#    handlers: [file]
+#    propagate: True
+  '':
+    handlers: [console, file, file_time]
+    level: INFO
     propagate: False
-root:
-  level: INFO
-  handlers: [console]
+#root:
+#  level: INFO
+#  handlers: [console, file, file_time]

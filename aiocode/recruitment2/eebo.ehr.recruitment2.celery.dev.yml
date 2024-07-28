@@ -1,0 +1,35 @@
+version: "3"
+services:
+  eebo.ehr.recruitment2.celery:
+    container_name: eebo.ehr.recruitment2.celery
+    image: registry.2haohr.com/2haohr-be/eebo.ehr.recruitment2:dev
+    labels:
+      app_name: "eebo.ehr.recruitment2.celery"
+      env: "dev"
+    restart: always
+    tty: true
+    stdin_open: true
+    working_dir: /data/wwwRoot
+    command: celery -A celery_worker:celery_app worker --concurrency=2 --loglevel=INFO
+    dns:
+      - 10.211.1.250
+    environment:
+      COLUMNS: 80
+      C_FORCE_ROOT: "true"
+      TZ: "Asia/Shanghai"
+      LOG_LEVEL: "DEBUG"
+      APP_RUN_BY_DOCKER: "true"
+      JAEGER_AGENT_ON_GATEWAY: "true"
+      APP_ENV: "dev"
+      PYTHONWARNINGS: "d"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "2m"
+        max-file: "10"
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1452

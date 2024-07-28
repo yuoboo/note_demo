@@ -1,0 +1,30 @@
+version: "3"
+services:
+  eebo.ehr.recruitment2:
+    container_name: eebo.ehr.recruitment2
+    image: registry.2haohr.com/2haohr-be/eebo.ehr.recruitment2:dev
+    labels:
+      app_name: "eebo.ehr.recruitment2"
+      env: "dev"
+    restart: always
+    tty: true
+    stdin_open: true
+    ports:
+      - "18000:18000"
+    working_dir: /data/wwwRoot
+    command: uvicorn web_server:app --host=0.0.0.0 --port=18000 --workers=4
+    dns:
+      - 10.211.1.250
+    environment:
+      TZ: "Asia/Shanghai"
+      APP_ENV: "dev"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "2m"
+        max-file: "10"
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1452
